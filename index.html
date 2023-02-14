@@ -50,33 +50,36 @@
     <br>
 
     <main>
-        <section>
-          <img src="img/form-contato.jpg" heith="200px" width="200px">
+        <section class="form d-inline-flex">
+          <img class="contato" src="img/form-contato.jpg" heith="600px" width="600px">
 
           <form class="form-contato">
             <fieldset>
-              <legend>Formulário de Contato</legend>
-              <div class="mt-auto mb-auto">
+              <legend style="font-weight: bold; font-size: larger;">Formulário de Contato</legend>
+              <br>
+              <div class="mt-3 mb-3">
                 <label for="nome" class="form-label">Nome</label>
                 <input type="text" id="nome" class="form-control" placeholder="Nome Completo">
               </div>
-              <div class="mt-auto mb-auto">
+              <div class="mt-3 mb-3">
                 <label for="endereco" class="form-label">Endereço</label>
                 <input type="text" id="endereco" class="form-control" placeholder="Rua, nº, bairro, cidade/UF, CEP">
               </div>
-              <div class="mt-auto mb-auto">
+              <div class="mt-3 mb-3">
                 <label for="fone" class="form-label">Telefone</label>
                 <input type="text" id="fone" class="form-control" placeholder="(00)00000-0000">
               </div>
-              <div class="mt-auto mb-auto">
+              <div class="mt-3 mb-3">
                   <label class="form-label" for="email">E-mail</label>
                   <input class="form-control" type="text" id="email" placeholder="email@email.com">
               </div>
-              <div class="mt-auto mb-auto">
+              <div class="mt-3 mb-3">
                 <label class="form-label" for="text">Mensagem</label>
                 <textarea class="form-control" id="mensagem" name="mensagem">Digite aqui sua mensagem</textarea>
-            </div>
-              <button type="submit" class="btn btn-primary">Enviar</button>
+              </div>
+              <div class="mt-3 mb-3">
+              <button type="submit" class="btn btn-primary w-100">Enviar</button>
+              </div>
             </fieldset>
           </form>
         </section>

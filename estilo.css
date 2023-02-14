@@ -21,15 +21,27 @@ body {
 }
 
 .custom-details:hover i {
-  color: purple;
+  color: rgb(110, 4, 110);
   transform:scale(2.0);
   transition: 1s;
 }
+
 /* estilo da section do formulário */
+
+.form {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.contato {
+  display: inline-flex;
+  justify-content:space-between;
+  margin-left: 80px;
+  margin-right: 300px;
+}
 
 .form-contato {
   display: inline-flex;
-  justify-content: space-between;
   vertical-align: top;
 }
 
