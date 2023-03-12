@@ -2,10 +2,6 @@ body {
   background-color: #ededed;
 }
 
-main {
-  margin-bottom: 100px;
-}
-
 /* estilo dos cards */
 
 .custom-details {
@@ -28,45 +24,4 @@ main {
   color: blue;
   transform:scale(2.0);
   transition: 1s;
-}
-
-/* estilo da section do formulário */
-
-.form {
-  margin-top: 60px;
-  margin-bottom: 140px;
-}
-
-.contato {
-  display: inline-flex;
-  justify-content:space-between;
-  margin-left: 100px;
-  margin-right: 300px;
-  border-radius: 20px;
-  box-shadow: 5px 5px rgb(79, 77, 77);
-}
-
-.form-contato {
-  display: inline-flex;
-  vertical-align: top;
-}
-
-/* estilo da section do mapa */
-
-.endereco-titulo {
-  display: flex;
-  justify-content: center;
-  font-size: x-large;
-  font-weight: bolder;
-  font-style: oblique; 
-  padding-top: 50px;
-  padding-bottom: 10px;
-}
-
-.endereco-detalhes {
-  display: flex;
-  justify-content: center;
-  font-size: large;
-  font-weight:lighter;
-  padding-top: 20px;
 }
